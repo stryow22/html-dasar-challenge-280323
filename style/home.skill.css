@@ -1,0 +1,60 @@
+.hard-skills {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.hard-skills h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hard-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hard-skills li {
+  margin: 0 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.skill {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.skill-bar-progress {
+  background-color: #0160ae;
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 1s ease-in-out;
+  width: 0;
+}
+
+.skill-bar[data-percent="80%"] .skill-bar-progress {
+  width: 80%;
+}
+
+.skill-bar[data-percent="70%"] .skill-bar-progress {
+  width: 70%;
+}

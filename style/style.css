@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  /* background-color: #333; */
+  color: #fff;
+  /* padding: 20px; */
+  background: linear-gradient(
+      0deg,
+      rgba(12, 12, 12, 0.836),
+      rgba(41, 41, 41, 0.384)
+    ),
+    url(https://media.licdn.com/dms/image/D563DAQFdels9BpDMxw/image-scale_191_1128/0/1667188312398?e=1680800400&v=beta&t=hCt8cuVOmgNyqnCYDnv--vWCSebI9DXNbpn9wMoeJr4);
+  background-size: cover;
+  background-repeat: round;
+}
+
+.navbar {
+  background-color: #0160ae;
+  /* border-bottom: 1px solid #ddd; */
+  padding: 20px;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.navbar-nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar-nav li:first-child {
+  margin-left: 0;
+}
+
+.nav-link {
+  color: #efefef;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #033761;
+}
+
+.container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.jumbotron img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #0160ae;
+  color: #fff;
+  padding: 50px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
