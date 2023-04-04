@@ -1,6 +1,5 @@
 .hard-skills {
   padding: 50px 20px;
-  background-color: #f9f9f9;
   text-align: center;
 }
 
@@ -14,8 +13,6 @@
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .hard-skills li {
@@ -34,7 +31,7 @@
 .skill-bar {
   background-color: #ddd;
   border-radius: 10px;
-  height: 10px;
+  height: 20px;
   position: relative;
   width: 100%;
 }
